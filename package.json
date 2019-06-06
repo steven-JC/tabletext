@@ -1,18 +1,23 @@
 {
-    "name": "texttable.js",
-    "version": "0.1.0",
-    "description": "Parse table-like string to object array, and reversely stringify object array to table-like string.",
-    "main": "./texttable.js",
-    "author": "steven chen <522702986@qq.com>",
-    "license": "MIT",
-    "scripts": {
-        "test": "mocha",
-        "tdd": "mocha --watch --watch-extensions ts,json --recursive --inspect --full-trace --bail --debug --async-only --timeout 100"
-    },
-    "types": "./texttable.d.ts",
-    "dependencies": {
-        "chai": "^4.2.0",
-        "mocha": "^6.1.4",
-        "texttable.js": "^0.1.0"
-    }
+	"name": "tabletext",
+	"version": "0.1.2",
+	"description": "Parse table-like string to object array, and reversely stringify object array to table-like string.",
+	"main": "./index.js",
+	"scripts": {
+		"test": "mocha",
+		"tdd": "mocha --watch --watch-extensions ts,json --recursive --inspect --full-trace --bail --debug --async-only --timeout 100"
+	},
+	"types": "./index.d.ts",
+	"author": "stevenjc",
+	"homepage": "https://github.com/steven-JC/tabletext",
+	"keywords": [ "table-like", "string", "parse", "stringify", "object array" ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/steven-JC/tabletext.git"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^6.1.4"
+	}
 }
