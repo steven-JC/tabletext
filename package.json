@@ -5,7 +5,7 @@
 	"main": "./index.js",
 	"scripts": {
 		"test": "mocha",
-		"tdd": "mocha --watch --watch-extensions ts,json --recursive --inspect --full-trace --bail --debug --async-only --timeout 100"
+		"tdd": "mocha --watch --watch-extensions js --recursive --inspect --full-trace --bail --debug --async-only --timeout 100"
 	},
 	"types": "./index.d.ts",
 	"author": "stevenjc",
